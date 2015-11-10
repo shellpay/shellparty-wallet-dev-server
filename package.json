@@ -1,0 +1,21 @@
+{
+  "name": "shellparty-wallet-dev-server",
+  "author": "Lars Kluge <l@larskluge.com>",
+  "description": "A simple web server that's designed to help with Shellparty Wallet development.",
+  "keywords": [
+    "shellparty",
+    "xdp"
+  ],
+  "version": "0.0.4",
+  "scripts": {
+    "start": "./node_modules/coffee-script/bin/coffee server.coffee"
+  },
+  "bin": {
+    "shellparty-wallet-dev-server": "./bin/shellparty-wallet-dev-server.js"
+  },
+  "dependencies": {
+    "coffee-script": "^1.8.0",
+    "http-proxy": "^1.8.1",
+    "node-static": "^0.7.6"
+  }
+}
